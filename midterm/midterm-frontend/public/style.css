@@ -1,0 +1,75 @@
+.BorrowerTable{
+    width:90%;
+    border: 2px solid black;
+}
+.BorrowerTable th{
+    width:20%;
+}
+.BorrowerTable td{
+    width:20%;
+    border: 2px solid black;
+}
+
+.navigation
+{
+    padding-left: 40%;
+    font-size:25px;
+}
+.navigation ul{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+    list-style: none;
+    gap:10px;
+}
+
+.navigation ul li a{
+
+    text-decoration: none;
+}
+
+.book-table{
+    width:90%;
+    border: 2px solid black;
+}
+.book-table th{
+    width:20%;
+}
+.book-table td{
+    width:20%;
+    border: 2px solid black;
+}
+
+.student-table{
+    width:90%;
+    border: 2px solid black;
+}
+.student-table th{
+    width:20%;
+}
+.student-table td{
+    width:20%;
+    border: 2px solid black;
+}
+
+.edit, .delete, .add, .update{
+
+    width: 100px;
+    height: 40px;
+}
+
+.textbox
+{
+    width:300px;
+    height:40px;
+    font-size: 24px;
+}
+
+.textbox-form
+{
+    display:flex;
+    flex-direction:column;
+}
+
